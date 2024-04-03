@@ -15,6 +15,12 @@
     text-decoration: none;
 }
 
+/* Estilos a los a para identificar que son links al hacerle hover*/ 
+
+a:hover{
+    cursor:-webkit-link;
+}
+
 /*Creación variables con colores del proyecto*/
 
 :root{
@@ -34,7 +40,6 @@ html{
 
 main{
     background-color: var(--beige);
-    padding: 0 50px;
 }
 
 /* Header y footer */
@@ -93,23 +98,44 @@ width: 120px;
     align-items: center;
     gap: 50px;
     text-align: center;
+    padding: 0 40px;
+    margin: 20px 0;
 }
 
 .aside{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+
+}
+
+.aside h3, .aside h4{
+    margin: 20px 0
 }
 
 .imagenes{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
+    gap: 10px;
+    justify-content: center;
+    
+
 }
 
 .banner-parques{
-    width: 100%;
+    width: 92%;
+    border-radius: 10px;
 }
 
 .img-inferior{
-    width:50%;
+    width: 45%;
+    border-radius: 10px;
 }
 
+/* Títulos y texto verde */
+
+.titulo-verde{
+    color: var(--verde-bosque);
+}
