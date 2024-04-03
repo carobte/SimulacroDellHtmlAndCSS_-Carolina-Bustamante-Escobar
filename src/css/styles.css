@@ -32,3 +32,29 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Header y footer */
+
+.fondo-verde, a{
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+}
+
+#header, #footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#logo{
+width: 120px;
+}
+
+#footer-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
