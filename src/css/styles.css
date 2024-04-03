@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* Resetear estilos + fuente y box sizing */
+/* Resetear estilos + fuente del proyecto y box sizing */
 
 * {
     font-family: "Montserrat";
@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 
-/* Estilos a los a para identificar que son links al hacerle hover*/
+/* Estilos a para identificar que son links al hacerle hover*/
 
 a:hover {
     cursor: -webkit-link;
@@ -52,7 +52,7 @@ main {
 }
 
 .iconos{
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* Header y footer */
@@ -88,7 +88,7 @@ main {
 
 #home {
     background-image: url(../../public/img/imagen1.webp);
-    height: 450px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -108,12 +108,12 @@ main {
 
 #titulo-banner{
     font-size: 45px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 #parrafo-banner{
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 /* Sección de Parques */
@@ -173,7 +173,7 @@ main {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .normas-card {
@@ -183,4 +183,3 @@ main {
     width: 30%;
     padding: 20px;
 }
-
