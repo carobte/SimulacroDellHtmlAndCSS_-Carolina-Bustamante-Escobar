@@ -32,6 +32,11 @@ html{
     scroll-behavior: smooth;
 }
 
+main{
+    background-color: var(--beige);
+    padding: 0 50px;
+}
+
 /* Header y footer */
 
 .fondo-verde, a{
@@ -75,8 +80,36 @@ width: 120px;
     gap: 30px;
 }
 
-#home h2,p{
+#home h2, #home p{
     width: 50%;
     color: var(--blanco);
+}
+
+/* Parques */
+
+.parques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.aside{
+    width: 40%;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.banner-parques{
+    width: 100%;
+}
+
+.img-inferior{
+    width:50%;
 }
 
