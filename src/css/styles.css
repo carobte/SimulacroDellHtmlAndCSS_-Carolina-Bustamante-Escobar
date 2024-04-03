@@ -58,3 +58,25 @@ width: 120px;
     font-size: 30px;
 
 }
+
+/* Primera sección */
+
+#home{
+    background-image: url(../../public/img/imagen1.webp);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#home h2,p{
+    width: 50%;
+    color: var(--blanco);
+}
+
