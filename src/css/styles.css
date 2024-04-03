@@ -15,3 +15,20 @@
     text-decoration: none;
 }
 
+/*Creación variables con colores del proyecto*/
+
+:root{
+    --verde-bosque: #1A5126;
+    --verde-claro: #8FBF5F;
+    --azul-claro: #5CB3FF;
+    --beige: #F3E9DC;
+    --marron-tierra: #B18F6A;
+    --blanco: #FFFFFF;
+}
+
+/*Scroll personalizado para navegar dentro de la misma página*/
+
+html{
+    scroll-behavior: smooth;
+}
+
