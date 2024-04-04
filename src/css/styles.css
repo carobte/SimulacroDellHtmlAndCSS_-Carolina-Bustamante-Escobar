@@ -79,8 +79,6 @@ main {
     padding: 20px;
 }
 
-
-
 #header{
     position: fixed; /* Para que continue viendose al hacer scroll*/
     width: 100%;
@@ -195,4 +193,8 @@ main {
     border-radius: 70px;
     width: 30%;
     padding: 20px;
+}
+
+#arvi, #jardin-botanico, #normas{
+    scroll-margin-top: 80px;
 }
